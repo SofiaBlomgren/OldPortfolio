@@ -55,8 +55,8 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Sofia Blomgren</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">This is my portfolio</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">About</a>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Welcome to my portfolio!</h2>
+        <!--<a href="#about" class="btn btn-primary js-scroll-trigger">About</a>-->
       </div>
     </div>
   </header>
@@ -67,8 +67,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">About</h2>
-          <p class="text-white-50">Hi! My name is Sofia and I'm a student at KTH Royal Institute of Technology, studying towards my master in Interactive Media Technology. This website is a portfolio for my developer projects. I'm also a photographer and you can find my photograpy portfolio on
-            <a href="http://www.sofiablomgren.com" target="_blank">my photograpy website</a>.</p>
+          <p class="text-white-50">Hi! My name is Sofia and I'm a student at KTH Royal Institute of Technology, studying towards my master in Interactive Media Technology. This is a portfolio for my code and design projects. I'm also a photographer and you can find my photograpy portfolio on
+            <a class="photolink" href="http://www.sofiablomgren.com" target="_blank">my photography website</a>. I hope you enjoy my work!</p>
         </div>
       </div>
       <img width=30% src="img/sofia.png" class="img-fluid" alt="">
@@ -133,26 +133,26 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" data-toggle="modal" href="#portfolioModal5">
-            <img class="img-fluid" src="img/osqledaren.png" alt="">
+            <img class="img-fluid" src="img/budapest.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Open
               </div>
               <div class="project-name">
-                Project Name
+                Budapest video
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" data-toggle="modal" href="#portfolioModal6">
-            <img class="img-fluid" src="img/scrollr.png" alt="">
+            <img class="img-fluid" src="img/b2.png" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Open
               </div>
               <div class="project-name">
-                Project Name
+                Bländaren
               </div>
             </div>
           </a>
@@ -464,7 +464,7 @@
   </div>
 
   <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -477,14 +477,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2>Budapest video</h2>
+                <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                <video width=100% height=auto controls>
+                <source src="video/Budapest.mov" type="video/mp4">
+                </video>
+                <p>This video was created for Osqledaren, the student union paper at KTH, to be posted on their Instagram. The videos were shot by me on my phone and I've edited and made everything in the video, except the music, including the intro and transition animations.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
+                  <li>Date: Spring 2019</li>
+                  <li>Tools: Adobe Premiere Pro, Adobe After Effects</li>
+                  <li>Category: Video, Animation</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -497,8 +499,9 @@
     </div>
   </div>
 
+
   <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -511,14 +514,17 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2>Bländaren</h2>
+                <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                <img class="img-fluid d-block mx-auto" src="img/b2.png" alt="">
+                <p>This is one of four magazine issues made for the new students at the Media Technology chapter at KTH during the reception. I was the art director for the magazine, which means that I collected the content created by me and a few other people and created the layout for each issue.</p>
+                <div>
+                  <a href="pdf/b2.pdf" target="_blank">Bländaren #2</a>
+                </div>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
+                  <li>Date: Summer 2016</li>
+                  <li>Tools: Adobe InDesign</li>
+                  <li>Category: Design, Layout</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
